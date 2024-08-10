@@ -1,0 +1,35 @@
+.welcome-section {
+  position: relative;
+  background-image: url('https://themewagon.github.io/tasteit/images/about.jpg'); /* Adjust path */
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.text-overlay {
+  max-width: 50%;
+ margin-left: 50px;
+}
+
+.text-overlay h3 {
+  font-size: 30px;
+  color: #e11b22;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.text-overlay h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.text-overlay p {
+  color: #c9c3c3;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 2.0;
+}

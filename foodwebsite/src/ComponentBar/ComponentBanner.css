@@ -1,0 +1,31 @@
+/* src/components/ComponentBanner/ComponentBanner.css */
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust as necessary */
+    background-image: url('https://themewagon.github.io/tasteit/images/bg_3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .banner-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .banner-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  

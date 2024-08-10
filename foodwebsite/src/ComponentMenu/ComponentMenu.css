@@ -1,0 +1,49 @@
+
+.menu-container {
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+.menu-heading {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu-category {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.menu-item-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.menu-item-info h4 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.menu-item-info p {
+  margin: 5px 0;
+}
+
+.menu-item-price {
+  font-size: 1.2em;
+  color: red;
+}
